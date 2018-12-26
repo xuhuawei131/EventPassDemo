@@ -30,7 +30,6 @@ public class TouchViewGroup extends LinearLayout {
         boolean isTouch=false;
         Log.v("xhw","### dispatchTouchEvent-TouchViewGroup-isTouch:"+isTouch);
          isTouch=super.dispatchTouchEvent(ev);
-
         return isTouch;
     }
 

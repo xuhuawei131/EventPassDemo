@@ -19,7 +19,6 @@ public class MainActivity extends Activity {
         boolean isTouch=false;
         Log.v("xhw","*** dispatchTouchEvent-Activity-isTouch:"+isTouch);
          isTouch=super.dispatchTouchEvent(ev);
-//        Log.v("xhw","*** dispatchTouchEvent-Activity-isTouch:"+isTouch);
         return isTouch;
     }
     @Override
